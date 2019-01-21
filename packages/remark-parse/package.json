@@ -12,6 +12,13 @@
     "parse"
   ],
   "types": "types/index.d.ts",
+  "typesVersions": {
+    ">=3.1": {
+      "*": [
+        "types/ts3.1/*"
+      ]
+    }
+  },
   "homepage": "https://remark.js.org",
   "repository": "https://github.com/remarkjs/remark/tree/master/packages/remark-parse",
   "bugs": "https://github.com/remarkjs/remark/issues",
